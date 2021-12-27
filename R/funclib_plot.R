@@ -760,6 +760,8 @@ nonAanalysis <- function(tailinfo,justOneTail){
 #'   identifier, default to T.
 #' @return Return the picture.
 #' @examples
+#' library(ggmsa)
+#' library(seqRFLP)
 #' data(taildf)
 #' my_cutstom <- data.frame(names=c("A","C","T","G"),color=c("#3171A5","#4EAA4C","#C9C4C2","#D73D3D"))
 #' p <- tailViso(taildf,tailLen=100,Ntail=20,custom=my_cutstom,strand="-",faPath="D:/",showLogo=T,showReadNum= F)
