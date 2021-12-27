@@ -19,4 +19,6 @@ library(PolyAtailor)
 
 ##or you can download ZIP, and then
 install.packages("you download path", repos = NULL, type = "source")
-```
+```  
+## Attention
+If you encounter the problem that the *ggmsa* package or *GenomicRanges* package does not work in some R versions, you can directly extract the two files in the *patch* folder and copy them to the library path in R.
