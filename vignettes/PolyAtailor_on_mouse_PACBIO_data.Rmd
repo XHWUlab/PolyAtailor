@@ -261,6 +261,8 @@ re$p3
   In order to show the base composition of the tail more intuitively, we show the interested tails in the form of heat map and logo diagram, so that we can intuitively see the difference of base composition of different tails at the same position.This function requires a separate call to the tailViso function.
     
 ```{r}
+library(ggmsa)
+library(seqRFLP)
 data(taildf)
 my_cutstom <- data.frame(names=c("A","C","T","G"),color=c("#3171A5","#4EAA4C","#C9C4C2","#D73D3D"))
 p <- tailViso(taildf,tailLen=100,Ntail=20,custom=my_cutstom,strand="-",faPath="D:/",showLogo=T,showReadNum= F)
