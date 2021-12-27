@@ -15,7 +15,7 @@ PolyAtailor starts with the original sequencing data, first pre-processed the or
 install.packages("devtools")
 require(devtools)
 install_github("XHWUlab/PolyAtailor")
-library(movAPA)
+library(PolyAtailor)
 
 ##or you can download ZIP, and then
 install.packages("you download path", repos = NULL, type = "source")
